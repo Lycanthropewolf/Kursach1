@@ -36,6 +36,7 @@ public class Main {
         minSalary();
         maxSalary();
 
+
     }
 
     public static void printEmployees() {
