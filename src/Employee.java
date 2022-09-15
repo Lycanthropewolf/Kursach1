@@ -9,8 +9,8 @@ public class Employee {
         this.FIO = FIO;
         this.salary = salary;
         this.department = department;
-        this.id=coonter++;
-    
+        this.id = coonter++;
+
 
     }
 
@@ -33,16 +33,19 @@ public class Employee {
         return id;
     }
 
+    public void setDepartment(int department) {
 
+        this.department = department;
+    }
 
     public void setSalary(int salary) {
+
         this.salary = salary;
     }
 
     public String toString() {
         return FIO + ", зарплата: " + salary + ", отдел: " + department + ", ID:" + id + ".";
     }
-
 
 
 }
