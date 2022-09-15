@@ -35,7 +35,7 @@ public class Main {
         printEmployees();
         printFullNames();
         minSalary();
-        maxSalary();
+
 
     }
 

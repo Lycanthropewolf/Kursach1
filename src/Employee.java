@@ -38,9 +38,7 @@ public class Employee {
         this.department = department;
     }
 
-    public void setSalary(int salary) {
-        this.salary = salary;
-    }
+
 
     public String toString() {
         return FIO + ", зарплата: " + salary + ", отдел: " + department + ", ID:" + id + ".";
