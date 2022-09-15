@@ -31,7 +31,6 @@ public class Main {
         employees[7]=emp8;
         employees[8]=emp9;
         employees[9]=emp10;
-        calculateTotalSalary();
         printEmployees();
         printFullNames();
         minSalary();
